@@ -1,0 +1,22 @@
+{
+  "name": "myfinance-ai-backend",
+  "version": "1.0.0",
+  "description": "API FastAPI para processar faturas de cartão de crédito usando IA",
+  "scripts": {
+    "dev": "uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "start": "uvicorn app.main:app --host 0.0.0.0 --port 8000",
+    "install:py": "pip install -r requirements.txt",
+    "setup": "python3 -m venv .venv && echo '✅ Ambiente virtual criado! Ative com: source .venv/bin/activate'",
+    "freeze": "pip freeze > requirements.txt"
+  },
+  "keywords": [
+    "fastapi",
+    "python",
+    "ai",
+    "finance",
+    "pdf"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
